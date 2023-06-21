@@ -1,42 +1,29 @@
-# 🗼Catppuccin Factory 🏭
-Forked from [tokyo-night-factory](https://github.com/rototrash/tokyo-night-factory) 😄
+<h1 align="center">
 
-A simple cli to convert any image to a catppuccin themed wallpaper
+🏭 Catppuccin Factory 
+</h1>
+
+Forked from [Fxzzi/catppuccin-factory](https://github.com/Fxzzi/catppuccin-factory/).
+
+A simple tool to convert an image to a catppuccin themed wallpaper.
 
 ![example](./example.png)
 
-## Installation
-1. Clone the repo.
-2. Install the required packages using pip as shown below:
-```
-pip3 install rich image-go-nord argparse
-```
-3. Edit the file ```conv.py``` line 14 with your user name, DO NOT CHANGE THE DIR, IT WILL NOT WORK AS EXPECTED, IF YOU WANT TO EDIT IT THEN DO IT IN BOTH ```conv.py``` and ```cat.sh```.
-4. Install it with:
-```
-sudo make install
-```
+This is intended to be the Google Colab version of the original script.
 
 ## Usage
-from your terminal run:
-```
-catFactory
-```
-or
-```
-catFactory /path/to/image/
-```
 
- All the outputs will be in ~/Pictures/cat
+Click on the following button to open Google Colab and start creating your images:
 
- ## UNINSTALL
- 1. ```cd``` into the repo folder.
- 2. Uninstall it with:
- ```
- sudo make uninstall
- ```
+<div align="center">
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1wBtnr97e4wMxek04h7vg0nNxWIuz-Lxp?usp=sharing)
+</div>
+
+You can also clone this repository and run the Notebook locally, but **you need to change the paths** in step 2 and 3.
 
 
- ## Credits
-- **Made** with [Schrodinger-Hat's ImageGoNord](https://github.com/Schrodinger-Hat), but with the Onedark palette
-- **Text User Interface (TUI)** made with [rich](https://github.com/willmcgugan/rich)
+## Credits
+
+- Thanks to [Fxzzi](https://github.com/Fxzzi/) for the main script.
+- **Made** with [Schrodinger-Hat's ImageGoNord](https://github.com/Schrodinger-Hat), but with the Onedark palette.
